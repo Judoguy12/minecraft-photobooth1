@@ -18,11 +18,11 @@ while True:
         sleep(1)
         mc.postToChat("Smile!")
         sleep(1)
-        #camera.start_preview()
-        #sleep(2)
-       # camera.rotation = 180
-        #camera.capture("/home/pi/Desktop/pi club/Minecraft photobooth/selfie")
-        #camera.stop_preview()
+        camera.start_preview()
+        sleep(2)
+        camera.rotation = 180
+        camera.capture("/home/pi/Desktop/pi club/Minecraft photobooth/selfie")
+        camera.stop_preview()
        
 sleep(3)
  
